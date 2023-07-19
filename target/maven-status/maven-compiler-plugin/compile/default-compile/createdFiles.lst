@@ -1,0 +1,12 @@
+gov\uk\check\visa\browserfactory\ManageBrowser.class
+gov\uk\check\visa\pages\ResultPage.class
+gov\uk\check\visa\utility\Utility$1.class
+gov\uk\check\visa\pages\ReasonForTravelPage.class
+gov\uk\check\visa\utility\Utility.class
+gov\uk\check\visa\pages\SelectNationalityPage.class
+gov\uk\check\visa\pages\StartPage.class
+gov\uk\check\visa\propertyreader\PropertyReader.class
+gov\uk\check\visa\pages\WorkTypePage.class
+gov\uk\check\visa\customlisteners\CustomListeners.class
+gov\uk\check\visa\pages\FamilyImmigrationStatusPage.class
+gov\uk\check\visa\pages\DurationOfStayPage.class

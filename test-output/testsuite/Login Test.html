@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  Login Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Login Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 19 14:14:59 BST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13941 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='gov.uk.check.visa.testsuite.VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths()'><b>aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths</b><br>Test class: gov.uk.check.visa.testsuite.VisaConfirmationTest<br/>
+<a href="#Output-1584918772" onClick='toggleBox("Output-1584918772", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1584918772" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1584918772">
+Accept all cookies[[ChromeDriver: chrome on windows (02ed00b0519425b419562112f5bafb01)] -> xpath: //button[normalize-space()='Accept additional cookies']]<br/>
+Click on Start button[[ChromeDriver: chrome on windows (02ed00b0519425b419562112f5bafb01)] -> xpath: //body/div[@id='wrapper']/div[1]/main[1]/div[2]/div[1]/article[1]/section[1]/a[1]]<br/>
+Select nationality from dropdown list[[ChromeDriver: chrome on windows (02ed00b0519425b419562112f5bafb01)] -> xpath: //select[@id='response']]<br/>
+click on continue button[[ChromeDriver: chrome on windows (02ed00b0519425b419562112f5bafb01)] -> xpath: //button[normalize-space()='Continue']]<br/>
+Select reason  for Chile[[ChromeDriver: chrome on windows (02ed00b0519425b419562112f5bafb01)] -> id: response-1]<br/>
+Click on Continue button[[ChromeDriver: chrome on windows (02ed00b0519425b419562112f5bafb01)] -> xpath: //button[contains(text(),'Continue')]]<br/>
+Select duration of stay<br/>
+Click on continue button on duration page[[ChromeDriver: chrome on windows (02ed00b0519425b419562112f5bafb01)] -> xpath: //button[normalize-space()='Continue']]<br/>
+Select the ob type[[ChromeDriver: chrome on windows (02ed00b0519425b419562112f5bafb01)] -> xpath: //input[@id='response-0']]<br/>
+Click on continue button on reason for visit page[[ChromeDriver: chrome on windows (02ed00b0519425b419562112f5bafb01)] -> xpath: //button[normalize-space()='Continue']]<br/>
+Compare the health care visa message<br/>
+Get message for Health Care visa[[ChromeDriver: chrome on windows (02ed00b0519425b419562112f5bafb01)] -> xpath: //h2[normalize-space()='You need a visa to work in health and care']]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>gov.uk.check.visa.testsuite.VisaConfirmationTest@4a87761d</td></tr>
+<tr>
+<td title='gov.uk.check.visa.testsuite.VisaConfirmationTest.anAustralianComingToUKForTourism()'><b>anAustralianComingToUKForTourism</b><br>Test class: gov.uk.check.visa.testsuite.VisaConfirmationTest<br/>
+<a href="#Output-688988404" onClick='toggleBox("Output-688988404", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-688988404" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-688988404">
+Accept all cookies[[ChromeDriver: chrome on windows (d0356d83c68a56f8a8710abe0779558f)] -> xpath: //button[normalize-space()='Accept additional cookies']]<br/>
+Click on Start button[[ChromeDriver: chrome on windows (d0356d83c68a56f8a8710abe0779558f)] -> xpath: //body/div[@id='wrapper']/div[1]/main[1]/div[2]/div[1]/article[1]/section[1]/a[1]]<br/>
+Select nationality from dropdown list[[ChromeDriver: chrome on windows (d0356d83c68a56f8a8710abe0779558f)] -> xpath: //select[@id='response']]<br/>
+click on continue button[[ChromeDriver: chrome on windows (d0356d83c68a56f8a8710abe0779558f)] -> xpath: //button[normalize-space()='Continue']]<br/>
+Select reason  for Australia[[ChromeDriver: chrome on windows (d0356d83c68a56f8a8710abe0779558f)] -> id: response-0]<br/>
+Click on Continue button[[ChromeDriver: chrome on windows (d0356d83c68a56f8a8710abe0779558f)] -> xpath: //button[contains(text(),'Continue')]]<br/>
+Compare the tourism visa message<br/>
+Get message for tourism visa[[ChromeDriver: chrome on windows (d0356d83c68a56f8a8710abe0779558f)] -> xpath: //h2[normalize-space()='You will not need a visa to come to the UK']]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>gov.uk.check.visa.testsuite.VisaConfirmationTest@4a87761d</td></tr>
+<tr>
+<td title='gov.uk.check.visa.testsuite.VisaConfirmationTest.aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card()'><b>aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card</b><br>Test class: gov.uk.check.visa.testsuite.VisaConfirmationTest<br/>
+<a href="#Output-930317866" onClick='toggleBox("Output-930317866", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-930317866" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-930317866">
+Accept all cookies[[ChromeDriver: chrome on windows (95b3ba57672089ee0a754942b85b5f19)] -> xpath: //button[normalize-space()='Accept additional cookies']]<br/>
+Click on Start button[[ChromeDriver: chrome on windows (95b3ba57672089ee0a754942b85b5f19)] -> xpath: //body/div[@id='wrapper']/div[1]/main[1]/div[2]/div[1]/article[1]/section[1]/a[1]]<br/>
+Select nationality from dropdown list[[ChromeDriver: chrome on windows (95b3ba57672089ee0a754942b85b5f19)] -> xpath: //select[@id='response']]<br/>
+click on continue button[[ChromeDriver: chrome on windows (95b3ba57672089ee0a754942b85b5f19)] -> xpath: //button[normalize-space()='Continue']]<br/>
+Select reason  for Chile[[ChromeDriver: chrome on windows (95b3ba57672089ee0a754942b85b5f19)] -> id: response-4]<br/>
+Click on Continue button[[ChromeDriver: chrome on windows (95b3ba57672089ee0a754942b85b5f19)] -> xpath: //button[contains(text(),'Continue')]]<br/>
+Compare the family stay visa message<br/>
+Get message for family stay visa[[ChromeDriver: chrome on windows (95b3ba57672089ee0a754942b85b5f19)] -> xpath: //h2[normalize-space()='You may need a visa']]<br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>gov.uk.check.visa.testsuite.VisaConfirmationTest@4a87761d</td></tr>
+</table><p>
+</body>
+</html>

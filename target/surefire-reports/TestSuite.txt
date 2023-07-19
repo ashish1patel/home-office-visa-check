@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 11.226 sec <<< FAILURE!
+aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths(gov.uk.check.visa.testsuite.VisaConfirmationTest)  Time elapsed: 0.334 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at gov.uk.check.visa.pages.StartPage.clickOnStartButton(StartPage.java:31)
+	at gov.uk.check.visa.testsuite.VisaConfirmationTest.aChileanComingToTheUKForWorkAndPlansOnStayingForLongerThanSixMonths(VisaConfirmationTest.java:55)
+
+aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card(gov.uk.check.visa.testsuite.VisaConfirmationTest)  Time elapsed: 0.399 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at gov.uk.check.visa.pages.StartPage.clickOnStartButton(StartPage.java:31)
+	at gov.uk.check.visa.testsuite.VisaConfirmationTest.aColumbianNationalComingToTheUKToJoinAPartnerForALongStayTheyDoHaveAnArticle10Or20Card(VisaConfirmationTest.java:88)
+
+anAustralianComingToUKForTourism(gov.uk.check.visa.testsuite.VisaConfirmationTest)  Time elapsed: 0.34 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at gov.uk.check.visa.pages.StartPage.clickOnStartButton(StartPage.java:31)
+	at gov.uk.check.visa.testsuite.VisaConfirmationTest.anAustralianComingToUKForTourism(VisaConfirmationTest.java:34)
+
